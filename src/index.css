@@ -5,7 +5,7 @@
 .custom-checkbox {
     width: 20px;
     height: 20px;
-    border: 2px solid #ccc; /* Gray border */
+    border: 2px solid #ccc; 
     border-radius: 3px;
     display: flex;
     align-items: center;
@@ -16,11 +16,11 @@
   }
   
   .custom-checkbox:hover {
-    border-color: gray; /* Gray border on hover */
+    border-color: gray; 
   }
   
   .custom-checkbox.checked {
-    background-color: #5087f8; /* Blue background when checked */
-    border: none; /* Hide border when checked */
+    background-color: #5087f8; 
+    border: none; 
   }
   
