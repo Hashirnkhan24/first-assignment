@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-checkbox {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ccc; /* Gray border */
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    /* background-color: transparent; */
+    transition: background-color 0.2s, border-color 0.2s;
+  }
+  
+  .custom-checkbox:hover {
+    border-color: gray; /* Gray border on hover */
+  }
+  
+  .custom-checkbox.checked {
+    background-color: #5087f8; /* Blue background when checked */
+    border: none; /* Hide border when checked */
+  }
+  
